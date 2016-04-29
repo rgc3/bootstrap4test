@@ -1,0 +1,26 @@
+.parallax {
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed!important;
+  overflow: hidden;
+}
+
+.parallax-pattern-overlay {
+  background-image: url(../assets/img/pattern.png);
+  background-repeat: repeat;
+}
+
+#size-banner {
+  /*height 580px;*/
+  padding-top: 170px;
+}
+
+.display-3 {
+  color: #fff;
+}
+
+.lead {
+  color: #fff;
+}
