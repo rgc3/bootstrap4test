@@ -7,11 +7,52 @@
     <!-- internet explorer rendering mode -->
     <meta http-equiv="x-ua-compatible" content="ie-edge">
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/styles.css">
     <title>Bootstrap 4!</title>
   </head>
   <body>
+
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+      <div class="nav navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Features</a>
+        <a class="nav-item nav-link" href="#">Pricing</a>
+        <a class="nav-item nav-link" href="#">About</a>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-3">Fluid jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      </div>
+    </div> <!-- Jumbotron -->
+
+    <div class="container">
+
+      <button type="button" class="btn btn-success-outline">Success</button>
+      <button type="button" class="btn btn-success-outline btn-lg">Large button</button>
+      <button type="button" class="btn btn-success-outline btn-sm">Small button</button>
+
+      <br /><br />
+
+      <label class="file">
+        <input type="file" id="file">
+        <span class="file-custom"></span>
+      </label>
+
+      <div class="card" style="max-width: 202px;">
+        <!-- Image -->
+        <img class="card-img-top img-fluid" src="assets/img/car.jpg" alt="Photo of sunset">
+        <!-- Text Content -->
+        <div class="card-block">
+          <p class="card-text">Card with a responsive image.</p>
+        </div>
+      </div> <!-- card -->
+
+    </div> <!-- container -->
+
 
 <!-- JavaScripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
